@@ -2,7 +2,7 @@
 Repository for my custom components
 
 ## MyAsusWRT
-I kept having issues with the asuswrt device tracker, so I hacked away at the code until it worked. Sharing this here in case others want to try it too.
+I kept having issues with the asuswrt device tracker, so I hacked away at the code until it worked. Sharing this here in case others want to try it too. The old asuswrt.py script used several different ways to check the devices, and I found that if I remove all but one of them (the "ip neigh" command) then it would continue to work perfectly.
 
 ### Instructions
 * Download the [myasuswrt.py](https://github.com/stuartmaxwell/ha-custom_components/blob/master/device_tracker/myasuswrt.py) file into the `custom_components` directory in your config directory.
