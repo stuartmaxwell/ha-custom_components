@@ -1,14 +1,20 @@
 # ha-custom_components
-Home Assistant Custom Components
+Repository for my custom components
 
+## MyAsusWRT
+I kept having issues with the asuswrt device tracker, so I hacked away at the code until it worked. Sharing this here in case others want to try it too.
 
-# Documentation for the old asuswrt device tracker:
+### Instructions
+* Download the [myasuswrt.py](https://github.com/stuartmaxwell/ha-custom_components/blob/master/device_tracker/myasuswrt.py) file into the `custom_components` directory in your config directory.
+* Follow the documentation below except where it says `platform: asuswrt` use `platform: myasuswrt` instead.
+
+### Documentation for the old asuswrt device tracker:
 
 The `asuswrt` platform offers presence detection by looking at connected devices to a [ASUSWRT](http://event.asus.com/2013/nw/ASUSWRT/) based router.
 
 This platform is **NOT** available for [Microsoft Windows installations](http://pexpect.readthedocs.io/en/stable/overview.html#pexpect-on-windows).
 
-### Configuration
+#### Configuration
 
 To use an ASUSWRT router in your installation, add the following to your `configuration.yaml` file:
 
