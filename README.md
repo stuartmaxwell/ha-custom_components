@@ -5,7 +5,7 @@ Repository for my custom components
 I kept having issues with the asuswrt device tracker, so I hacked away at the code until it worked. Sharing this here in case others want to try it too. The old asuswrt.py script used several different ways to check the devices, and I found that if I remove all but one of them (the "ip neigh" command) then it would continue to work perfectly.
 
 ### Instructions
-* Download the [myasuswrt.py](https://github.com/stuartmaxwell/ha-custom_components/blob/master/device_tracker/myasuswrt.py) file into the `custom_components` directory in your config directory.
+* Download the [myasuswrt.py](https://github.com/stuartmaxwell/ha-custom_components/blob/master/device_tracker/myasuswrt.py) file into a directory called `device_tracker` in the `custom_components` directory in your config directory. You should have a path that looks like this: `<your config directory>\custom_components\device_tracker\myasuswrt.py`
 * Follow the documentation below except where it says `platform: asuswrt` use `platform: myasuswrt` instead.
 
 ### Documentation for the old asuswrt device tracker:
