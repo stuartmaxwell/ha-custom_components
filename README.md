@@ -8,6 +8,10 @@ I kept having issues with the asuswrt device tracker, so I hacked away at the co
 * Download the [myasuswrt.py](https://github.com/stuartmaxwell/ha-custom_components/blob/master/device_tracker/myasuswrt.py) file into a directory called `device_tracker` in the `custom_components` directory in your config directory. You should have a path that looks like this: `<your config directory>\custom_components\device_tracker\myasuswrt.py`
 * Follow the documentation below except where it says `platform: asuswrt` use `platform: myasuswrt` instead.
 
+### Routers known to work with this code:
+* RT-AC86U
+* (I assume that all others will work with this too, but have not yet definite confirmation yet - please let me know if you use this and it works for you.
+
 ### Documentation for the old asuswrt device tracker:
 
 The `asuswrt` platform offers presence detection by looking at connected devices to a [ASUSWRT](http://event.asus.com/2013/nw/ASUSWRT/) based router.
