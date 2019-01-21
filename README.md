@@ -10,6 +10,7 @@ I kept having issues with the asuswrt device tracker, so I hacked away at the co
 
 ### Routers known to work with this code:
 * RT-AC86U
+* RT-N65U
 * (I assume that all others will work with this too, but have not yet definite confirmation yet - please let me know if you use this and it works for you.
 
 ### Documentation for the old asuswrt device tracker:
